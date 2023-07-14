@@ -1,0 +1,62 @@
+//Variables
+@import './variables';
+
+// Flex
+@import './components/flex';
+
+// Components
+@import './components/buttons';
+@import './components/inputs';
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: $main-font;
+    color: $gray-800;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;  
+}
+
+.container {
+    max-width: 1250px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+input {
+    font-family: $main-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.input::placeholder {
+    font-family: $main-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.title {
+    color: $gray-900;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 130%;
+}

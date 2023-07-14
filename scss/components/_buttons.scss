@@ -1,0 +1,24 @@
+
+.buttons {
+    padding-top: 50px;
+    @include flex(center, center);
+}
+
+.btn {
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 44px;
+    padding: 10px 40px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid $prime;
+    color: $prime;
+}
+
+.btn-solid-green {
+    background-color: $prime;
+    color: $white;
+    border: 1px solid $prime;
+}

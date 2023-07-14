@@ -1,0 +1,11 @@
+@import './base';
+
+.header {
+    &__top {
+        background-color: $gray-900;
+        height: 44px;
+        color: rgba($white, 0.6000000238418579);
+    }
+
+
+}

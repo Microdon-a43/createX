@@ -1,0 +1,27 @@
+    // Colors
+    
+    $prime: #17696A;
+    $gray-600: #9A9CA5;
+    $gray-700: #787A80;
+    $gray-800: #424551;
+    $gray-900: #1E212C;
+    $white: #FFF;
+    $danger: #FF4242;
+    $warning: #F89828;
+    $success: #03CEA4;
+    $info: #5A87FC;
+
+
+    // Fonts
+
+    $main-font: 'Lato', sans-serif;
+    
+    // Mixins
+
+    @mixin flex($justify, $align) {
+        display: flex;
+        justify-content: $justify;
+        align-items: $align;
+    }
+
+    
