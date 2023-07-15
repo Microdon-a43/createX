@@ -52,6 +52,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.flex-grid-row5{
+    grid-template-rows: repeat(5, 86px);
+}
+
 // Gap's
 
 .gap4 {
@@ -121,6 +125,9 @@
     color: #5A87FC;
 } 
 
+.prime {
+    color: #17696A;
+}
 // Weight 
 
 .bold {

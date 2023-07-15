@@ -151,7 +151,7 @@
             <img src="../assets/images/right-gray-chevron.svg" alt="" />
             <span>Account</span>
             <img src="../assets/images/right-gray-chevron.svg" alt="" />
-            <span style="color: #9A9CA5;">My profile </span>
+            <span style="color: #9a9ca5">My profile </span>
           </div>
         </div>
       </div>
@@ -167,7 +167,9 @@
                 <ul
                   class="primary-user__list flex-col flex-direction-col flex-row-center"
                 >
-                  <li class="primary-user-list__item primary-user-list__item--active">
+                  <li
+                    class="primary-user-list__item primary-user-list__item--active"
+                  >
                     <a
                       href="profile.html"
                       class="primary-user-list__link flex-col flex-align-center gap8"
@@ -207,9 +209,7 @@
                       <span class="marked">2</span>
                     </a>
                   </li>
-                  <li
-                    class="primary-user-list__item "
-                  >
+                  <li class="primary-user-list__item">
                     <a
                       href="viewed.html"
                       class="primary-user-list__link flex-col flex-align-center gap8"
@@ -261,42 +261,70 @@
                   <span>Delete account</span>
                 </div>
               </div>
-              <div class="profile__main">
+              <div class="profile__main flex-grid flex-grid-row5 flex-grid-col2 gap30">
                 <div class="profile__left">
-                        <form class="profile-left__form flex-col flex-direction-col gap24" action="">
-                            <div class="flex-col flex-direction-col gap8">
-                                <label for="first_name">First name</label>
-                                <input class="common__input" type="text" id="first_name" placeholder="Annette">
-                            </div>
-                            <div class="flex-col flex-direction-col gap8">
-                                <label for="email">Email</label>
-                                <input class="common__input" type="email" id="email" placeholder="annetteb@example.com">
-                            </div>
-                            <div class="flex-col flex-direction-col gap8">
-                                <label for="password">New Password</label>
-                                <input class="common__input pos-rel" type="password" id="password">
-                                <img class="pos-abs" src="../assets/images/input-eye.svg" alt="">
-                            </div>
-                            <div class="flex-col flex-direction-col gap8">
-                                <span>Country</span> 
-                                <select name="" id="country">
-                                    <option value="Russia">Russia</option>
-                                    <option value="Ukraine">Ukraine</option>
-                                    <option value="USA">USA</option>
-                                    <option value="Zimbabwe">Zimbabwe</option>
-                                </select>
-                            </div>
-                            <div class="flex-col flex-direction-col gap8">
-                                <label for="address">Address</label>
-                                <input class="common__input" type="text" id="address">
-                            </div>
-                            
-
-                        </form>
+                  <div class="profile__name flex-col flex-direction-col gap8">
+                    <label for="first_name">First name</label>
+                    <input class="common__input" type="text" id="first_name" placeholder="Annette">
+                  </div>
+                  <div class="profile__email flex-col flex-direction-col gap8">
+                    <label for="email">Email</label>
+                    <input class="common__input" type="email" id="email" placeholder="annetteb@example.com">
+                  </div>
+                  <div class="profile__password flex-col flex-direction-col gap8">
+                    <label for="password">Password</label>
+                    <div class="profile-password__input pos-rel">
+                      <input class="common__input" type="password" id="password">
+                      <img class="profile-password-input__img pos-abs" src="../assets/images/gray-eye.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="profile__country flex-col flex-direction-col gap8">
+                    <span>Country</span>
+                    <select name="">
+                      <option value="1" selected>USA</option>
+                      <option value="2">Russia</option>
+                      <option value="3">Ukraine</option>
+                      <option value="4">Zimbabwe</option>
+                    </select>
+                  </div>
+                  <div class="profile__address flex-col flex-direction-col gap8">
+                    <label for="address">Address</label>
+                    <input class="common__input" type="text" id="address" placeholder="2464 Royal Ln. Mesa, New Jersey">
+                  </div>
                 </div>
-
-                <div class="profile__right"></div>
+          
+                <div class="profile__right">
+                  <div class="profile__lastname flex-col flex-direction-col gap8">
+                    <label for="last_name">Last name</label>
+                    <input class="common__input" type="text" id="last_name" placeholder="Black">
+                  </div>
+                  <div class="profile__phone flex-col flex-direction-col gap8">
+                    <label for="phone">Phone</label>
+                    <input class="common__input" type="text" id="phone" placeholder="(629) 555-0129">
+                  </div>
+                  <div class="profile__confirm flex-col flex-direction-col gap8">
+                    <label for="confirm_pass"> Confirm Password</label>
+                    <div class="profile-password__input pos-rel">
+                      <input class="common__input" type="password" id="confirm_pass">
+                      <img class="profile-password-input__img pos-abs" src="../assets/images/gray-eye.svg" alt="">
+                    </div>
+                  </div>
+                  <div class="profile__city flex-col flex-direction-col gap8">
+                    <span>City</span>
+                    <select name="">
+                      <option value="1" selected>New Jersey</option>
+                      <option value="2">Moscow</option>
+                      <option value="3">Kiyv</option>
+                      <option value="4">Kharare</option>
+                    </select>
+                  </div>
+                  <div class="profile__zip flex-col flex-direction-col gap8">
+                    <label for="zip">ZIP Code</label>
+                    <input class="common__input" type="text" id="zip" placeholder="45463">
+                  </div>
+                </div>
               </div>
+              <a href="#" class="profile__btn btn btn-solid-green">Save changes</a>
             </div>
           </div>
         </div>

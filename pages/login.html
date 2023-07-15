@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Createx</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <div class="login">
+        <div class="close flex-col flex-row-end"><img src="../assets/images/cross.svg" alt=""></div>
+        <div class="login__info">
+            <h1 class="login__title">Sign in</h1>
+            <p class="login__text">Sign in to your account using email and password provided during registration.</p>
+        </div>
+        <form class="login__form flex-col flex-direction-col flex-align-center gap20">
+            <div class="login-form__email flex-col flex-direction-col gap8">
+                <label for="login_email">Email</label>
+                <input class="common__input" type="email" id="login_email">
+            </div>
+            <div class="login-form__password flex-col flex-direction-col gap8">
+                <label for="login_pass">Password</label>
+                <input class="common__input" type="password" id="login_pass">
+            </div>
+            <div class="login-form__checkbox flex-col flex-row-sb">
+                <div class="checkbox flex-col gap12">
+                    <input class="custom__checkbox" type="checkbox" id="checkbox">
+                    <label for="checkbox">Keep me signed in</label>
+                </div>
+                <div class="forgot__pass"><span class="prime">Forgot password?</span></div>
+            </div>
+            <a href="#" class="login__btn btn btn-solid-green">Sign in</a>
+        </form>
+        
+    </div>
+
+    </div>
+  </body>
+</html>

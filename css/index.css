@@ -50,6 +50,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.flex-grid-row5 {
+  grid-template-rows: repeat(5, 86px);
+}
+
 .gap4 {
   gap: 4px;
 }
@@ -126,6 +130,10 @@
   color: #5A87FC;
 }
 
+.prime {
+  color: #17696A;
+}
+
 .bold {
   font-weight: 700;
 }
@@ -186,6 +194,44 @@ select {
   width: 100%;
   padding: 13px 16px;
   outline: none;
+}
+
+.login {
+  max-width: 500px;
+  width: 100%;
+  margin: 208px auto 0;
+  padding-top: 208px;
+}
+.login__info {
+  text-align: center;
+}
+.login__title {
+  margin-bottom: 24px;
+}
+.login__text {
+  max-width: 390px;
+  margin: 0 auto 24px;
+}
+.login__form {
+  max-width: 390px;
+  width: 100%;
+  margin: 0 auto;
+}
+.login-form__checkbox {
+  font-size: 14px;
+  width: 100%;
+}
+.login-form__checkbox .custom__checkbox:active {
+  background-color: #17696A;
+}
+.login-form__email {
+  width: 100%;
+}
+.login-form__password {
+  width: 100%;
+}
+.login-form__btn {
+  height: 44px;
 }
 
 *,
@@ -375,6 +421,42 @@ input {
 }
 .primary .profile__main {
   margin-top: 40px;
+  margin-bottom: 48px;
+  row-gap: 24px;
+}
+.primary .profile-password-input__img {
+  top: 16px;
+  right: 16px;
+}
+.primary .profile__name {
+  margin-bottom: 24px;
+}
+.primary .profile__email {
+  margin-bottom: 24px;
+}
+.primary .profile__phone {
+  margin-bottom: 24px;
+}
+.primary .profile__password {
+  margin-bottom: 24px;
+}
+.primary .profile__country {
+  margin-bottom: 24px;
+}
+.primary .profile__lastname {
+  margin-bottom: 24px;
+}
+.primary .profile__phone {
+  margin-bottom: 24px;
+}
+.primary .profile__city {
+  margin-bottom: 24px;
+}
+.primary .profile__confirm {
+  margin-bottom: 24px;
+}
+.primary .profile__btn {
+  margin-top: 48px;
 }
 .primary .recently__viewed {
   max-width: 810px;
