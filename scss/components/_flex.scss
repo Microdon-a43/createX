@@ -1,3 +1,5 @@
+// Flex classes
+
 .flex-col {
     display: flex;
 }
@@ -10,11 +12,49 @@
     justify-content: space-around;
 }
 
+.flex-row-center {
+    justify-content: center;
+}
+
+.flex-row-end {
+    justify-content: flex-end;
+}
 .flex-align-center {
     align-items: center;
 }
 
-.gap {
+.flex-align-start {
+    align-items: start;
+}
+
+.flex-align-end {
+    align-items: end;
+}
+
+.flex-direction-col {
+    flex-direction: column;
+}
+
+.flex-grid {
+    display: grid;
+}
+
+.flex-grid-col2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.flex-grid-col3 {
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.flex-grid-col4{ 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+// Gap's
+
+.gap4 {
     gap: 4px;
 }
 .gap8 {
@@ -47,7 +87,42 @@
 .gap60 {
     gap: 60px;
 }
+.gap135 {
+    gap: 135px;
+}
 .gap150 {
     gap: 150px;
 }
 
+
+// Position 
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+// Colors 
+
+.danger {
+    color: #FF4242;
+} 
+
+.warning {
+    color: #F89828;
+}
+.success {
+    color: #03CEA4;
+}
+.info {
+    color: #5A87FC;
+} 
+
+// Weight 
+
+.bold {
+    font-weight: 700;
+}

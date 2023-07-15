@@ -1,0 +1,27 @@
+.common__input {
+    font-family: $main-font;
+    color: $gray-800;
+    border: 1px solid $gray-400;
+    border-radius: 4px;
+    height: 52px;
+    max-width: 390px;
+    width: 100%;
+    padding: 13px 16px;
+    outline: none;
+}
+
+.common__input::placeholder {
+    font-family: $main-font;
+}
+
+select {
+    font-family: $main-font;
+    color: $gray-800;
+    border: 1px solid $gray-400;
+    border-radius: 4px;
+    height: 52px;
+    max-width: 390px;
+    width: 100%;
+    padding: 13px 16px;
+    outline: none;
+}

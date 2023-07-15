@@ -26,7 +26,7 @@
             <nav class="header-top__nav">
               <ul class="header-top__list flex-col gap32">
                 <li class="header-top-list__item">
-                  <a href="" class="header-top-list__link"
+                  <a href="#" class="header-top-list__link"
                     >Delivery & returns</a
                   >
                 </li>
@@ -43,14 +43,14 @@
             </nav>
             <div class="header-top__right flex-col gap60">
               <div class="header-top__currency flex-col gap12">
-                <img src="/assets/images/flag.svg" alt="" />
+                <img src="../assets/images/flag.svg" alt="" />
                 <div>
                   <span>Eng / $</span>
-                  <img src="/assets/images/arrow_down.svg" alt="" />
+                  <img src="../assets/images/arrow_down.svg" alt="" />
                 </div>
               </div>
               <div class="header-top__enter flex-col gap8">
-                <img src="/assets/images/profile.svg" alt="" />
+                <img src="../assets/images/profile.svg" alt="" />
                 <span>Log in / Register</span>
               </div>
             </div>
@@ -74,19 +74,19 @@
                   class="header-bottom__list flex-col flex-align-center gap40"
                 >
                   <li class="header-bottom-list__item">
-                    <a href="" class="header-bottom-list__link">Women</a>
+                    <a href="#" class="header-bottom-list__link">Women</a>
                   </li>
                   <li class="header-bottom-list__item">
-                    <a href="" class="header-bottom-list__link">Men</a>
+                    <a href="#" class="header-bottom-list__link">Men</a>
                   </li>
                   <li class="header-bottom-list__item">
-                    <a href="" class="header-bottom-list__link">Girls</a>
+                    <a href="#" class="header-bottom-list__link">Girls</a>
                   </li>
                   <li class="header-bottom-list__item">
-                    <a href="" class="header-bottom-list__link">Boys</a>
+                    <a href="#" class="header-bottom-list__link">Boys</a>
                   </li>
                   <li class="header-bottom-list__item">
-                    <a href="" class="header-bottom-list__link"
+                    <a href="#" class="header-bottom-list__link"
                       ><span>Sale</span></a
                     >
                   </li>
@@ -101,7 +101,7 @@
                   <div class="header-bottom-form__input">
                     <input type="text" placeholder="Search for products..." />
                     <button class="header-bottom-form__btn">
-                      <img src="/assets/images/search.svg" alt="" />
+                      <img src="../assets/images/search.svg" alt="" />
                     </button>
                   </div>
                 </form>
@@ -151,7 +151,7 @@
             <img src="../assets/images/right-gray-chevron.svg" alt="" />
             <span>Account</span>
             <img src="../assets/images/right-gray-chevron.svg" alt="" />
-            <span>Recently viewed</span>
+            <span>My reviews</span>
           </div>
         </div>
       </div>
@@ -207,6 +207,19 @@
                       <span class="marked">2</span>
                     </a>
                   </li>
+                  <li class="primary-user-list__item">
+                    <a
+                      href="viewed.html"
+                      class="primary-user-list__link flex-col flex-align-center gap8"
+                    >
+                      <img
+                        class="primary-user-list__img"
+                        src="../assets/images/eye.svg"
+                        alt=""
+                      />
+                      <span>Recently viewed</span>
+                    </a>
+                  </li>
                   <li
                     class="primary-user-list__item primary-user-list__item--active"
                   >
@@ -216,20 +229,7 @@
                     >
                       <img
                         class="primary-user-list__img"
-                        src="../assets/images/Eye-white.svg"
-                        alt=""
-                      />
-                      <span>Recently viewed</span>
-                    </a>
-                  </li>
-                  <li class="primary-user-list__item">
-                    <a
-                      href="reviews.html"
-                      class="primary-user-list__link flex-col flex-align-center gap8"
-                    >
-                      <img
-                        class="primary-user-list__img"
-                        src="../assets/images/reviews-solid-star.svg"
+                        src="../assets/images/star.svg"
                         alt=""
                       />
                       <span>My reviews</span>
@@ -251,84 +251,201 @@
                 </ul>
               </div>
             </div>
-            <div class="recently__viewed">
-              <div class="recently-viewed__top flex-col flex-row-sb">
-                <h1 class="recently-viewed__title title">Recently viewed</h1>
-                <div
-                  class="recently-viewed__delete flex-col flex-align-center gap8"
-                >
-                  <img src="../assets/images/delete.svg" alt="" />
-                  <span>Delete all</span>
+            <div class="primary__reviews">
+              <div class="primary-reviews__top flex-col flex-row-sb">
+                <h1 class="primary-reviews__title title">My reviews</h1>
+                <div class="primary-reviews__sort">
+                  <span>Sort by</span>
+                  <select class="primary-reviews__select" name="" id="">
+                    <option>newest</option>
+                    <option>oldest</option>
+                    <option>random</option>
+                  </select>
                 </div>
               </div>
-              <div class="recently-viewed__main">
-                <div class="recently-viewed__products flex-grid flex-grid-col2 gap30">
-                  <div class="recently-viewed-products__item">
-                    <div class="recently-viewed-products-item__img pos-rel">
-                        <img src="../assets/images/product1.jpg" alt="" />
-                        <span class="product__sale pos-abs">-20%</span>
-                        <img class="product__like pos-abs" src="../assets/images/like.svg" alt="">
-                    </div>
-                    <p class="recently-viewed-products-item__text">
-                      Check coat with colour contrast
-                    </p>
-                    <div class="recently-viewed-products-item__price">
-                        <span class="promo_price">$20.00</span>
-                        <span class="old_price">$24.00</span>
-                    </div>
+              <div class="primary-reviews__main">
+                <div class="primary-reviews__box">
+                  <div class="primary-reviews__subtitle">
+                    For: <span>Chrono watch with blue leather belt</span>
                   </div>
-                  <div class="recently-viewed-products__item">
-                    <div class="recently-viewed-products-item__img pos-rel">
-                        <img src="../assets/images/product2.jpg" alt="" />
-                        <img class="product__like pos-abs" src="../assets/images/like.svg" alt="">
+                  <article class="primary-reviews__item flex-col gap30">
+                    <div class="primary-reviews-item__left">
+                      <div class="primary-reviews-item__name">
+                        Annette Black
+                      </div>
+                      <span class="primary-reviews-item__time">3 days ago</span>
+                      <div class="primary-reviews-item__rate">
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                      </div>
                     </div>
-                    <p class="recently-viewed-products-item__text">
-                      Check coat with colour contrast
-                    </p>
-                    <div class="recently-viewed-products-item__price">
-                        <span>$183.45</span>
+                    <div
+                      class="primary-reviews-item__right flex-col flex-direction-col"
+                    >
+                      <p class="primary-reviews-item__text">
+                        Vel velit pulvinar montes, sit rhoncus odio molestie.
+                        Venenatis nunc fames ut proin adipiscing sit. Etiam
+                        egestas elit varius a, vestibulum bibendum nibh sociis
+                        in. Ut facilisis sit eget cum fringilla. Dapibus mauris
+                        viverra est sed risus quam lacinia aliquam.
+                      </p>
+                      <div
+                        class="primary-reviews-item__icons flex-col flex-align-center flex-row-end gap16"
+                      >
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/review-like.svg" alt="" />
+                          <span>2</span>
+                        </div>
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/dislike.svg" alt="" />
+                          <span>0</span>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div class="recently-viewed-products__item">
-                    <div class="recently-viewed-products-item__img pos-rel">
-                        <div class="recently-viewed-products-item__rate pos-abs">
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                          </div>
-                        <img src="../assets/images/product3.jpg" alt="" />
-                        
-                        <img class="product__like pos-abs" src="../assets/images/filled-heart.svg" alt="">
-                    </div>
-                    <p class="recently-viewed-products-item__text">
-                      Shirt with insertion lace trims
-                    </p>
-                    <div class="recently-viewed-products-item__price">
-                        <span>$49.95</span>
-                    </div>
-                  </div>
-                  <div class="recently-viewed-products__item">
-                    <div class="recently-viewed-products-item__img pos-rel">
-                        <div class="recently-viewed-products-item__rate pos-abs">
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/filled-star.svg" alt="" />
-                            <img src="../assets/images/empty-star.svg" alt="" />
-                          </div>
-                        <img src="../assets/images/product4.jpg" alt="" />
-                        <img class="product__like pos-abs" src="../assets/images/like.svg" alt="">
-                    </div>
-                    <p class="recently-viewed-products-item__text">
-                       Chrono watch with blue leather belt
-                    </p>
-                    <div class="recently-viewed-products-item__price">
-                        <span>$120.60</span>
-                    </div>
-                  </div>
+                  </article>
                 </div>
+                <div class="primary-reviews__box">
+                  <div class="primary-reviews__subtitle">
+                    For: <span>Modal-blend trenchcoat</span>
+                  </div>
+                  <article class="primary-reviews__item flex-col gap30">
+                    <div class="primary-reviews-item__left">
+                      <div class="primary-reviews-item__name">
+                        Annette Black
+                      </div>
+                      <span class="primary-reviews-item__time"
+                        >August 29, 2020</span
+                      >
+                      <div class="primary-reviews-item__rate">
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="primary-reviews-item__right flex-col flex-direction-col"
+                    >
+                      <p class="primary-reviews-item__text">
+                        Amet ut augue dignissim lorem. Diam volutpat porttitor
+                        vel, pulvinar semper. Faucibus vel accumsan mi diam
+                        magna. Nunc diam lorem semper rhoncus in ut. Quis risus
+                        viverra bibendum eu.
+                      </p>
+                      <div
+                        class="primary-reviews-item__icons flex-col flex-align-center flex-row-end gap16"
+                      >
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/review-like.svg" alt="" />
+                          <span>3</span>
+                        </div>
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/dislike.svg" alt="" />
+                          <span>0</span>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="primary-reviews__box">
+                  <div class="primary-reviews__subtitle">
+                    For: <span>Denim shorts</span>
+                  </div>
+                  <article class="primary-reviews__item flex-col gap30">
+                    <div class="primary-reviews-item__left">
+                      <div class="primary-reviews-item__name">
+                        Annette Black
+                      </div>
+                      <span class="primary-reviews-item__time"
+                        >August 5, 2020</span
+                      >
+                      <div class="primary-reviews-item__rate">
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/empty-star.svg" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="primary-reviews-item__right flex-col flex-direction-col"
+                    >
+                      <p class="primary-reviews-item__text">
+                        Vel velit pulvinar montes, sit rhoncus odio molestie.
+                        Venenatis nunc fames ut proin adipiscing sit. Etiam
+                        egestas elit varius a, vestibulum bibendum nibh sociis
+                        in. Ut facilisis sit eget cum fringilla. Dapibus mauris
+                        viverra est sed risus quam lacinia aliquam.
+                      </p>
+                      <div
+                        class="primary-reviews-item__icons flex-col flex-align-center flex-row-end gap16"
+                      >
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/review-like.svg" alt="" />
+                          <span>0</span>
+                        </div>
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/dislike.svg" alt="" />
+                          <span>0</span>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="primary-reviews__box">
+                  <div class="primary-reviews__subtitle">
+                    For: <span>Modal-blend trenchcoat</span>
+                  </div>
+                  <article class="primary-reviews__item flex-col gap30">
+                    <div class="primary-reviews-item__left">
+                      <div class="primary-reviews-item__name">
+                        Annette Black
+                      </div>
+                      <span class="primary-reviews-item__time"
+                        >July 12, 2020</span
+                      >
+                      <div class="primary-reviews-item__rate">
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                        <img src="../assets/images/filled-star.svg" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="primary-reviews-item__right flex-col flex-direction-col"
+                    >
+                      <p class="primary-reviews-item__text">
+                        Eu duis ac, faucibus et egestas morbi elementum urna in.
+                        Feugiat natoque vestibulum, augue nisi. Vulputate vitae
+                        felis quis mauris morbi massa ut. Dolor in amet volutpat
+                        facilisi luctus duis mauris.
+                      </p>
+                      <div
+                        class="primary-reviews-item__icons flex-col flex-align-center flex-row-end gap16"
+                      >
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/review-like.svg" alt="" />
+                          <span>3</span>
+                        </div>
+                        <div class="flex-col flex-align-center gap8">
+                          <img src="../assets/images/dislike.svg" alt="" />
+                          <span>1</span>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <button
+                  class="primary-reviews__btn flex-col flex-align-center gap16"
+                >
+                  <img src="../assets/images/convert.svg" alt="" />
+                  Load more
+                </button>
               </div>
             </div>
           </div>
@@ -394,31 +511,31 @@
                 <a href="#"
                   ><img
                     class="social-icon"
-                    src="../assets/images/facebook.svg"
+                    src="assets/images/facebook.svg"
                     alt=""
                 /></a>
                 <a href="#"
                   ><img
                     class="social-icon"
-                    src="../assets/images/instagram.svg"
+                    src="assets/images/instagram.svg"
                     alt=""
                 /></a>
                 <a href="#"
                   ><img
                     class="social-icon"
-                    src="../assets/images/twitter.svg"
+                    src="assets/images/twitter.svg"
                     alt=""
                 /></a>
                 <a href="#"
                   ><img
                     class="social-icon"
-                    src="../assets/images/youtube.svg"
+                    src="assets/images/youtube.svg"
                     alt=""
                 /></a>
                 <a href="#"
                   ><img
                     class="social-icon"
-                    src="../assets/images/pinterest.svg"
+                    src="assets/images/pinterest.svg"
                     alt=""
                 /></a>
               </li>
@@ -429,10 +546,8 @@
               >Download our app</span
             >
             <div class="footer-download__img flex-col gap20">
-              <a href="#"><img src="../assets/images/appstore.svg" alt="" /></a>
-              <a href="#"
-                ><img src="../assets/images/googleplay.svg" alt=""
-              /></a>
+              <a href="#"><img src="assets/images/appstore.svg" alt="" /></a>
+              <a href="#"><img src="assets/images/googleplay.svg" alt="" /></a>
             </div>
           </div>
         </div>
