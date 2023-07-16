@@ -32,6 +32,11 @@
                 }
             }
         }
+        &-icons {
+            &__item {
+                cursor: pointer;
+            }
+        }
         &-form { 
             &__input {
                 input {
@@ -66,6 +71,9 @@
         span strong {
             font-weight: 900;
         }
+    }
+    .sale__spans{
+        cursor: pointer;
     }
 };
 

@@ -12,6 +12,11 @@
 
 .common__input::placeholder {
     font-family: $main-font;
+    color: $gray-600;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+
 }
 
 select {
